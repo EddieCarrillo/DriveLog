@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eddie.drivelog" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name=".ItemsMenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DriveActivity"
+            android:label="@string/title_activity_drive" >
+        </activity>
+
+
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calandar" >
+        </activity>
+
+        <activity
+            android:name=".DriveViewActivity"
+            android:label="@string/title_activity_drive_view">
+        </activity>
+
+        <activity
+            android:name=".DriveListActivity"
+            android:label="@string/title_activity_drive_list" >
+        </activity>
+
+
+        <receiver android:name=".LocationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.eddie.drivelog"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+
+
+
+</manifest>

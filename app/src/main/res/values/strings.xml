@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">DriveLog</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_log">New Drive</string>
+    <string name="log_view">View Past Drives</string>
+    <string name="title_activity_drive">DriveActivity</string>
+    <string name="start_location_label">From:</string>
+    <string name="end_location_label">Destination:</string>
+    <string name="start_location_hint">Enter your starting location here!!! </string>
+    <string name="end_location_hint">Enter your destination here!!!</string>
+    <string name="distance_hint">Enter your distance here!!!</string>
+    <string name="date_picker_title">Date of Drive:</string>
+    <string name="add_button">Add Drive</string>
+    <string name="drive_added_toast">Drive Added Successfully</string>
+    <string name="date_of_drive">Date:</string>
+    <string name="error_toast">Numbers only please!!!</string>
+    <string name="distance_label">Miles:</string>
+    <string name="odometer_label">Odometer Reading:</string>
+    <string name="set_odometer">Odometer</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="return_to_menu">Back to main menu</string>
+    <string name="negative_delete_button">Delete</string>
+    <string name="driveview_title">Drive Info</string>
+    <string name="start_live_drive">Start!</string>
+    <string name="live_drive_frag_button">Live</string>
+    <string name="manual_drive_frag_button">Manual</string>
+    <string name="stop_live_drive">Stop</string>
+    <string name="gps_enabled">GPS ENABLED</string>
+    <string name="gps_disabled">GPS DISABLED</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drive_view">DriveView</string>
+    <string name="title_activity_alert_text_box">AlertTextBox</string>
+    <string name="title_activity_calandar">CalendarActivity</string>
+    <string name="title_activity_drive_list">DriveListActivity</string>
+    <string name="title_activity_live_drive">LiveDriveActivity</string>
+    <string name="title_activity_drive_map_">DriveMapActivity</string>
+
+</resources>
